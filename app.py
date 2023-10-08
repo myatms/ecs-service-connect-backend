@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/api/data', methods=['GET'])
 def get_data():
-    data = {"message": "Hello from the Python backend!", "value": 42}
+    data = {"message": "Hello from the Python backend!", "value": 50}
     return jsonify(data)
 
 if __name__ == '__main__':
